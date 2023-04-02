@@ -332,6 +332,12 @@ nav {
     grid-gap: 10px 10px;
 }
 
+button{
+    border: none;
+}
+
+button:focus { outline: none; }
+
 .product-today-items .item{
     background: #ffffff;
     margin: 0px;
