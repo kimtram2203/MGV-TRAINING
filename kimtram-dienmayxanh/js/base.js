@@ -50,8 +50,8 @@ $(document).ready(function () {
         $("html, body").animate({ scrollTop: 0 }, 1000);
     });
 
-    $(".short-category-item").click(function (){
-        $(".short-category-item").css("background", "#FFFFFF")
+    $(".short-category-item").click(function () {
+        $(".short-category-item").css("background", "#FFFFFF");
         this.style.background = "#FEB70B";
     });
 });
